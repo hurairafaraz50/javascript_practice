@@ -21,9 +21,3 @@ function mod(a, b) {
   alert(a % b);
 }
 mod(num1, num2);
-
-function calculator(x,y){
-    while(true){
-        if (x+y)
-    }
-}
