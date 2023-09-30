@@ -22,5 +22,16 @@ for (let key in marks) {
 }
 
 //chapter3 Q3
+let x = 44;
+let num;
+while (num != x) {
+  alert("try again");
+  num = parseInt(prompt("Enter a number: "));
+}
+alert("you have entered a correct number ");
 
 //chapter3 Q4
+const mean = (a, b, c, d, e) => {
+  return (a + b + c + d + e) / 5;
+};
+alert(mean(2, 3, 4, 5, 7));
